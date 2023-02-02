@@ -1,0 +1,104 @@
+,Film,Budget,Cumulative Worldwide Gross,year,rating,votes,synopsis,Action,Adventure,Sci-Fi,Thriller,Drama,Romance,Horror,Mystery,Biography,Crime,History,War,Western,Comedy,Music,Animation,Family,Fantasy,Sport,Musical,Documentary
+1,Inception,160000000.0,825532764.0,2010,8.8,2367898.0,,True,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+2,Good Will Hunting,10000000.0,225933435.0,1997,8.3,980684.0,,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+3,Cabin in the Woods,30000000.0,70768144.0,2011,7.0,424053.0,,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+4,Independence Day,75000000.0,,1996,7.0,579929.0,,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5,Spotlight,20000000.0,98275238.0,2015,8.1,474195.0,,False,False,False,False,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False
+6,Der Untergang,13500000.0,92180910.0,2004,8.2,358708.0,,False,False,False,False,True,False,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False
+7,V For Vendetta,54000000.0,132511035.0,2005,8.2,1128243.0,,True,False,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+8,Cast Away,90000000.0,429632142.0,2000,7.8,598611.0,,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+9,Tombstone,25000000.0,,1993,7.8,152406.0,,False,False,False,False,True,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False
+10,John Wick,20000000.0,130888901.0,2014,7.4,642132.0,,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+11,John Wick: Chapter 2,40000000.0,171539887.0,2017,7.4,439576.0,,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+12,John Wick: Chapter 3: Parabellum,75000000.0,326709727.0,2019,7.4,351100.0,,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+13,Das Boot Director's Cut,14000000.0,73482661.0,1981,8.4,253187.0,,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+14,Gangs of New York,100000000.0,193772504.0,2002,7.5,447349.0,,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+15,Tropic Thunder,92000000.0,188072649.0,2008,7.0,421965.0,,True,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False
+16,The Dark Knight,185000000.0,1004558.0,2008,9.0,2669236.0,,True,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+17,Leon: The Professional,115000000.0,45501238.0,1994,8.5,1169326.0,,True,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+18,Whiplash,3300000.0,48982041.0,2014,8.5,873818.0,,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+19,Rush Hour,33000000.0,244386864.0,1998,7.0,274085.0,,True,False,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+20,Spider-Man: Into the Spider-Verse,90000000.0,375540831.0,2018,8.4,538553.0,,True,True,True,False,False,False,False,False,False,False,False,False,False,True,False,True,True,True,False,False,False
+21,Ford v Ferrari,97600000.0,225507881.0,2019,8.1,401428.0,,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False
+22,Team America World Police,30000000.0,,2004,7.2,171558.0,,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+23,The Founder,25000000.0,24403192.0,2016,7.2,154353.0,,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+24,Airplane!,3500000.0,,1980,7.7,243864.0,,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+25,Kill Bill Vol 1,30000000.0,180949045.0,2003,8.2,1123361.0,,True,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+26,Kill Bill Vol 2,30000000.0,152159461.0,2004,8.0,762911.0,,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+27,Karate Kid,8000000.0,,1984,7.3,229282.0,,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False
+28,The Incredibles,92000000.0,631442092.0,2004,8.0,745285.0,,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,False,False,False,False
+29,Schindler's List,22000000.0,221000000.0,1993,9.0,1363078.0,,False,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+30,Hero,,,2022,7.4,21204.0,,True,False,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+31,Scott Pilgrim vs the World,60000000.0,132000000.0,2010,7.5,432238.0,,True,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,True,False,False,False
+32,Gladiator,103000000.0,457640427.0,2000,8.5,1509837.0,,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+33,Citizen Kane,839727.0,,1941,8.3,445539.0,,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+34,The Hunt for Red October,30000000.0,200512643.0,1990,7.5,204134.0,,True,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+35,A Few Good Men,40000000.0,243240178.0,1992,7.7,268415.0,,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+36,American History X,7500000.0,23875127.0,1998,8.5,1128816.0,,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+37,Hot Fuzz,8000000.0,80573774.0,2007,7.8,510458.0,,True,False,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False
+38,2001: A Space Odyssey,12000000.0,190700000.0,1968,8.3,674445.0,,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+39,The Thing,15000000.0,7821228.0,1982,8.2,430333.0,,False,False,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+40,Ghostbusters,30000000.0,291632124.0,1984,7.8,420341.0,,True,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,False
+41,Alien,11000000.0,203630630.0,1979,8.5,889122.0,,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+42,12 Years A Slave,20000000.0,187733202.0,2013,8.1,706112.0,,False,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+43,Batman & Robin,125000000.0,238207122.0,1997,3.7,256617.0,,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+44,Creed,35000000.0,173567581.0,2015,7.6,278305.0,,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+45,The Deer Hunter,15000000.0,,1978,8.1,342556.0,,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+46,Oldboy,3000000.0,14980005.0,2003,8.4,585052.0,,True,False,False,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+47,American Beauty,15000000.0,226200000.0,1999,8.4,1160579.0,,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+48,The Matrix,63000000.0,463517383.0,1999,8.7,1924019.0,,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+49,The Matrix Reloaded,150000000.0,742128461.0,2003,7.2,600060.0,,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+50,The Big Lebowski,15000000.0,46189568.0,1998,8.1,814957.0,,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+51,Borat,18000000.0,261572744.0,2006,7.3,415517.0,,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+52,The Lighthouse,11000000.0,,2019,7.4,222491.0,,False,False,False,True,True,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False
+53,Anchorman,26000000.0,90574188.0,2004,7.1,361907.0,,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+54,The Warriors,4000000.0,,1979,7.5,104372.0,,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+55,Monty Python and the Holy Grail,229575.0,5028948.0,1975,8.2,545720.0,,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,False
+56,Spider-Man: Far From Home,160000000.0,1131927.0,2019,7.4,500205.0,,True,True,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+57,Spider-Man: No Way Home,200000000.0,1892747.0,2021,8.2,766163.0,,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+58,The Prestige,40000000.0,109676311.0,2006,8.5,1341865.0,,False,False,True,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+59,Gandhi,22000000.0,127767889.0,1982,8.0,233834.0,,False,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False
+60,Ocean's Eleven,85000000.0,450717150.0,2001,7.7,581504.0,,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+61,Ace Ventura: Pet Detective,12000000.0,107217396.0,1994,6.9,306883.0,,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+62,A Bridge Too Far,26000000.0,,1977,7.4,57823.0,,False,False,False,False,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False
+63,The Batman,200000000.0,,2022,7.8,665894.0,,True,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+64,Tenacious D in the Pick of Destiny,,,2006,6.8,110645.0,,False,True,False,False,False,False,False,False,False,False,False,False,False,True,True,False,False,False,False,True,False
+65,Django: Unchained,100000000.0,425368238.0,2012,8.4,1566493.0,,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+66,Baby Driver,34000000.0,228104185.0,2017,7.6,548910.0,,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+67,The Big Short,28000000.0,133346506.0,2015,7.8,437494.0,,False,False,False,False,True,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False
+68,Kung Fury,,,2023,,,,True,False,True,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+69,Superbad,20000000.0,169871719.0,2007,7.6,587908.0,,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+70,Casablanca,950000.0,,1942,8.5,575696.0,,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+71,Blade Runner,150000000.0,259344059.0,2017,8.0,583546.0,,True,False,True,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+72,Blade Runner 2049,150000000.0,259344059.0,2017,8.0,583546.0,,True,False,True,True,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+73,The Room,6000000.0,,2003,3.6,90593.0,,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+74,The Disaster Artist,10000000.0,,2017,7.3,156220.0,,False,False,False,False,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+75,Megamind,130000000.0,321885765.0,2010,7.3,268246.0,,True,False,True,True,False,False,False,True,False,True,False,False,False,True,False,True,True,False,False,False,False
+76,Paul,,,2023,7.0,590.0,,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,True
+77,Top Gun,15000000.0,356830601.0,1986,6.9,458249.0,,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+78,Ali,107000000.0,87713825.0,2001,6.7,101396.0,,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False
+79,"Everything, Everywhere, All at Once",25000000.0,,2022,8.0,311263.0,,True,True,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,False
+80,American Psycho,7000000.0,34266564.0,2000,7.6,632727.0,,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+81,Shaun of the Dead,4000000.0,30039392.0,2004,7.9,563580.0,,False,False,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+82,Silence,46000000.0,23737523.0,2016,7.1,114936.0,,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+83,Arrival,47000000.0,203388186.0,2016,7.9,703520.0,,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+84,High Noon,730000.0,,1952,8.0,105685.0,,False,False,False,True,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+85,Mars Attacks!,70000000.0,101371017.0,1996,6.4,231220.0,,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+86,Dracula (1992),40000000.0,,1992,7.4,221740.0,,False,False,False,False,True,True,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+87,Her,23000000.0,47351251.0,2013,8.0,621165.0,,False,False,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+88,The Shining,19000000.0,17469946.0,1980,8.4,1030173.0,,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+89,Bruce Almighty,81000000.0,484572835.0,2003,6.8,409661.0,,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,False
+90,Pacific Rim,190000000.0,411002906.0,2013,6.9,507101.0,,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+91,Godfather,6000000.0,245066411.0,1972,9.2,1870393.0,,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+92,Napoleon Dynamite,400000.0,46118097.0,2004,6.9,223985.0,,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+93,North by Northwest,3101000.0,22213000.0,1959,8.3,331143.0,,True,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+94,Fight Club,63000000.0,71000000.0,1999,8.8,2140633.0,,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+95,In The Mouth of Madness,8000000.0,,1994,7.1,71763.0,,False,False,False,True,True,False,True,True,False,False,False,False,False,False,False,False,False,True,False,False,False
+96,Face/Off,80000000.0,128000000.0,1997,7.3,381980.0,,True,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+97,Roma,,,2018,7.7,160948.0,,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+98,Avatar,350000000.0,,2022,7.8,275381.0,,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+99,Austin Powers,17000000.0,67683989.0,1997,7.0,244169.0,,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+100,Jagten,3800000.0,18309793.0,2012,8.3,334636.0,,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+101,Avatar: The Way of Water,350000000.0,,2022,7.8,275381.0,,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+102,No Country For Old Men,25000000.0,171627166.0,2007,8.2,982132.0,,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+103,Sing Street,,,2016,7.9,95926.0,,False,False,False,False,True,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False
