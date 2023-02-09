@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 import streamlit as st
 
@@ -7,8 +8,12 @@ st.set_page_config(layout="wide")
 
 # load data
 movie_information = pd.read_csv("movie_information.csv").set_index("Unnamed: 0")
+ratings = pd.read_csv("ratings.csv").set_index("Unnamed: 0")
 
 # set session info
+if "users" not in st.session_state:
+    st.session_state["users"] = ['Seb', 'Jos', 'Coen', 'Stijn', 'Merle', 'Twan', 'Annick', 'Guest (gemiddelde)']
+    
 if "movie_columns" not in st.session_state:
     st.session_state["movie_columns"] = ["Budget", "Cumulative Worldwide Gross", "year", "rating", "votes"]
 
@@ -44,14 +49,22 @@ with genres.container():
 
     row_mask = movie_information[genre_options].any(axis=1)
 
-    genres.dataframe(movie_information[row_mask],
+    genres.dataframe(movie_information[["Film"] + st.session_state["movie_columns"]][row_mask],
                 width = 2000,
                 height = 2000)
 
-with synopsis.container():
+with synopsis.container():    
     synopsis.subheader("Movie synopsis")
     
-    synopsis.dataframe(movie_information[["Film", "synopsis"]],
-                width = 2000,
-                height = 2000,
-                use_container_width = True)
+    selected_IDs = synopsis.multiselect("Select movie ID(s):", movie_information.index)
+    
+    
+    
+    for id in selected_IDs:
+        synopsis.subheader(movie_information.iloc[id-1].Film + ":  " + str(np.nanmean(list(ratings.iloc[id-1][st.session_state["users"]]))))
+        synopsis.write(movie_information.iloc[id-1].synopsis)
+    
+    # synopsis.dataframe(movie_information[["Film", "synopsis"]].iloc[movie_search],
+    #             width = 2000,
+    #             height = 2000,
+    #             use_container_width = True)

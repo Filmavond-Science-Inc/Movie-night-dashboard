@@ -11,7 +11,7 @@ movie_information = pd.read_csv("movie_information.csv").set_index("Unnamed: 0")
 
    
 if "users" not in st.session_state:
-    st.session_state["users"] = [x for x in list(ratings.columns) if x not in ["Film"]] 
+    st.session_state["users"] = ['Seb', 'Jos', 'Coen', 'Stijn', 'Merle', 'Twan', 'Annick', 'Guest (gemiddelde)']
    
 if "movie_columns" not in st.session_state:
     st.session_state["movie_columns"] = ["Budget", "Cumulative Worldwide Gross", "year", "rating", "votes"]
