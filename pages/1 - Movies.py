@@ -12,7 +12,7 @@ ratings = pd.read_csv("ratings.csv").set_index("Unnamed: 0")
 
 # set session info
 if "users" not in st.session_state:
-    st.session_state["users"] = ['Seb', 'Jos', 'Coen', 'Stijn', 'Merle', 'Twan', 'Annick', 'Guest (gemiddelde)']
+    st.session_state["users"] = ['Seb', 'Jos', 'Coen', 'Stijn', 'Merle', 'Twan', 'Annick', 'Guest (Mean)']
     
 if "movie_columns" not in st.session_state:
     st.session_state["movie_columns"] = ["Budget", "Cumulative Worldwide Gross", "year", "rating", "votes"]

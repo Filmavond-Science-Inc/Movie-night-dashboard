@@ -9,7 +9,7 @@ import streamlit as st
 st.set_page_config(layout="wide")
 
 if "users" not in st.session_state:
-    st.session_state["users"] = ['Seb', 'Jos', 'Coen', 'Stijn', 'Merle', 'Twan', 'Annick', 'Guest (gemiddelde)']
+    st.session_state["users"] = ['Seb', 'Jos', 'Coen', 'Stijn', 'Merle', 'Twan', 'Annick', 'Guest (Mean)']
 
 if "movie_columns" not in st.session_state:
     st.session_state["movie_columns"] = ["Budget", "Cumulative Worldwide Gross", "year", "rating", "votes"]
@@ -85,10 +85,9 @@ movies = pd.read_csv("movie_information.csv").set_index("Unnamed: 0")
 ratings = pd.read_csv("ratings.csv").set_index("Unnamed: 0")
 
 
-
-
 # Starting the dashboard functionalities
 st.header("New ratings")
+
 
 st.subheader("1. Add the ratings")
 
@@ -100,22 +99,22 @@ for i in range(len(st.session_state["users"])):
     new_ratings_dict[st.session_state["users"][i]] = score_cols[i % len(score_cols)].number_input(user+":", min_value=0.0000000, max_value=10.00000)
 
 new_ratings_df = pd.DataFrame.from_dict(new_ratings_dict, orient="index").T
-new_ratings_df = new_ratings_df.replace(0, np.nan)
-st.dataframe(new_ratings_df, use_container_width=True)
+new_ratings_df = new_ratings_df.replace(0, None)
 
-
-new_ratings_df["Film"] = "RRR"
-new_ratings_df = "RRR"
-# st.dataframe(pd.concat([ratings, new_ratings_df]))
+if new_ratings_df.count(axis=0).sum() < 2:    
+    st.info(f"You need to add at least 2 ratings. Current number: {new_ratings_df.count(axis=0).sum()}")
 
 
 
+st.subheader("2. Select the movie night date")
+new_ratings_df["date"] = st.date_input("Date: (YY/MM/DD)")
 
-st.subheader("2. Search for the movie") 
+
+st.subheader("3. Search for the movie") 
 movie_search = st.text_input("Seach movie:")
 
 
-st.subheader("3. Check if everything looks good") 
+st.subheader("4. Check if the movie information is correct") 
 
 # What to do once a query has been given
 if movie_search != "":   
@@ -138,12 +137,13 @@ if movie_search != "":
         movie_info = cnm.get_movie(id)
         
         # convert cinemagoer info to a pandas dataframe
-        res = retrieve_movie_stats(movie_info, interesting_stats)
+        new_movie_information = retrieve_movie_stats(movie_info, interesting_stats)
 
+        # diplay the two dataframes next two each other
         col1, col2 = st.columns(2)   
         with col1:
             st.write("Your movie:")
-            st.dataframe(res,
+            st.dataframe(new_movie_information,
                     width = 1500,
                     height = 1053)
         
@@ -154,12 +154,36 @@ if movie_search != "":
                     height = 1053) 
             
             
-        # # now onto adding the ratings
-        # st.subheader("Add the ratings")
+        # finalise the new movie information
+        new_movie_information = new_movie_information.T
+        new_movie_information.index = [movies.index[-1] + 1]      
         
-        # add_movie_clicked = st.button("Save ratings")
+    
+        st.subheader("5. Saving the ratings")
         
-        # if add_movie_clicked:
-        #     new_ratings_df["Film"] = movie_info["title"]
-        #     st.write("added movie")
+        st.write("Check if the following is what you want to save:")
+        new_ratings_df["Film"] = movie_info["title"]
+        new_ratings_df.index = [ratings.index[-1] + 1] # last index of ratings + 1 is the new index
+        
+        st.dataframe(pd.concat([ratings, new_ratings_df]),
+                    width = 2500)    
+        
+        add_movie_clicked = st.button("Save ratings")
+        
+        if add_movie_clicked:
+            if new_ratings_df[st.session_state["users"]].count(axis=0).sum() >= 2:   
+                
+                # save the ratings    
+                ratings = pd.concat([ratings, new_ratings_df])
+                ratings.to_csv("ratings.csv")
+                
+                # save the movie information
+                movies = pd.concat([movies, new_movie_information])
+                movies.to_csv("movie_information.csv")
+                
+                st.write("Added the movie and ratings!")  
+                st.experimental_rerun()        
+                
 
+            else:                
+                st.warning(f'Not enough ratings added: {new_ratings_df[st.session_state["users"]].count(axis=0).sum()}', icon="⚠️")
