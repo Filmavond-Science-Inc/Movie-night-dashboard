@@ -11,7 +11,7 @@ movie_information = pd.read_csv("movie_information.csv").set_index("Unnamed: 0")
 
    
 if "users" not in st.session_state:
-    st.session_state["users"] = ['Seb', 'Jos', 'Coen', 'Stijn', 'Merle', 'Twan', 'Annick', 'Guest (gemiddelde)']
+    st.session_state["users"] = ['Seb', 'Jos', 'Coen', 'Stijn', 'Merle', 'Twan', 'Annick', 'Guest (Mean)']
    
 if "movie_columns" not in st.session_state:
     st.session_state["movie_columns"] = ["Budget", "Cumulative Worldwide Gross", "year", "rating", "votes"]
@@ -32,7 +32,7 @@ with tab1.container():
         styler.background_gradient(axis=None, vmin=3, vmax=9, cmap="RdYlGn") #RdYlGn
         return styler
 
-    tab1.dataframe(ratings.style.pipe(make_pretty),
+    tab1.dataframe(ratings[["Film"] + st.session_state["users"]].style.pipe(make_pretty),
                 width = 2000,
                 height = 3900)
 
