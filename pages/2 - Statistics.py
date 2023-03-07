@@ -28,7 +28,7 @@ with correlations.container():
     corr = df.corr()
 
     heatmap(corr, 
-                    mask=np.zeros_like(corr, dtype=np.bool), 
+                    mask=np.zeros_like(corr, dtype=bool), 
                     cmap=diverging_palette(220, 10, as_cmap=True),
                     square=True, 
                     ax=ax)
