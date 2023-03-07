@@ -29,7 +29,6 @@ lxml==4.9.2
 markdown-it-py==2.1.0
 MarkupSafe==2.1.2
 matplotlib
-
 mdurl==0.1.2
 numpy==1.24.2
 outcome==1.2.0
